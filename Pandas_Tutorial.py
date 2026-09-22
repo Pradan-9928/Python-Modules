@@ -55,4 +55,3 @@ print(new_series.iloc[2])
 # 20
 #You can print the values of the series bu also using the original and primitve index values of the numbers
 
-print(series[series>=100])
