@@ -1,11 +1,28 @@
+# import pandas as pd
+# data={"Name":["Harry Potter","Hermione Granger","Ronald Weasley"],
+#       "Blood":["Half Blood","Half Blood","Pure Blood"]}
+# index=["Person1","Person2","Person3"]
+# series=pd.DataFrame(data,index)
+
+# print(series)
+
+# print(series.loc["Person1"])
+
+# #adding a new column in an existing dataframe
+
+# series["Job"]=["Auror","Minister Of Magic","Auror"]
+
+# #adding a new row in an existing dataframe
+# new_row=pd.DataFrame([{"Name":"Sandy","Age":"28"}],index=["Person4"])
+# series=pd.concat([series,new_row])
+
+# print(series)
+
 import pandas as pd
-data=[0,101,203,190,700,604]
-series=pd.Series(data)
-print(series[series>500])
+dict={"Name":["Tanjiro Kamado","Nezuko Kamado","Inosuke","Zenitsu"],
+      "Age":[13,12,15,16]}
+index=["Person 1","Person 2","Person 3","Person 4"]
 
-# the above example is one of the kind to filter out and display values of the speicific condition
 
-calories={"pizza":200,"burger":300}
-dict_series=pd.Series(calories)
-dict_series.loc["burger"]+=100
-print(dict_series.loc["burger"])
+df=pd.DataFrame(dict,index)
+print(df)
