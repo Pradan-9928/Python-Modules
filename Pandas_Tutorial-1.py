@@ -26,3 +26,5 @@ index=["Person 1","Person 2","Person 3","Person 4"]
 
 df=pd.DataFrame(dict,index)
 print(df)
+
+dict["TYPE"]=["Human","Demon-Part-Human","Human","Human"]
