@@ -27,4 +27,8 @@ index=["Person 1","Person 2","Person 3","Person 4"]
 df=pd.DataFrame(dict,index)
 print(df)
 
-dict["TYPE"]=["Human","Demon-Part-Human","Human","Human"]
+df["TYPE"]=["Human","Demon-Part-Human","Human","Human"]
+df["Gender"]="Nil"
+new_row=pd.DataFrame([{"Name":"Yoriichi Tsugikuni","Age":"Dead","TYPE":"Human"}],index=["Person 5"])
+df=pd.concat([df,new_row])
+print(df)
