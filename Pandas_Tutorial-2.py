@@ -17,8 +17,4 @@ print(heavy_pokemon)
 legendary=df[df["Legendary"]==1]
 print(legendary)
 
-#Finding the highest or lowest value in a given column of a dataframe
-highest_height=df[df["Height"]==df["Height"].max()]
-print(highest_height)
-lowest_weight=df[df["Weight"]==df["Weight"].min()]
-print(lowest_weight)
+# print(df)
