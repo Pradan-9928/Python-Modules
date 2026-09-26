@@ -17,4 +17,13 @@ print(heavy_pokemon)
 legendary=df[df["Legendary"]==1]
 print(legendary)
 
-# print(df)
+
+#Finding the highest or lowest value in a given column of a dataframe
+highest_height=df[df["Height"]==df["Height"].max()]
+print(highest_height)
+lowest_weight=df[df["Weight"]==df["Weight"].min()]
+print(lowest_weight)
+
+#Filtering with two conditions in mind
+water_fly_type=df[(df["Type1"]=="Water") & (df["Type2"]=="Flying")]
+print(water_fly_type)
