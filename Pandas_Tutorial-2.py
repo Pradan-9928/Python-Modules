@@ -36,3 +36,9 @@ print(water_fly_type)
 # print(df.count())
 
 
+# Single column I
+# print(df["Height"].mean())
+# print(df["Height"].sum())
+# print(df["Height"].min())
+# print(df["Height"].max())
+print(df["Height"].count())
