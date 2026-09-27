@@ -43,5 +43,8 @@ print(water_fly_type)
 # print(df["Height"].max())
 # print(df["Height"].count())
 
+
+# In group by you cannot print the group or rows directly you should take help of aggregate function that's the only way you can print a group by 
 group=df.groupby("Type1")
 print(group["Height"].mean())
+print(group["Height"].max())
