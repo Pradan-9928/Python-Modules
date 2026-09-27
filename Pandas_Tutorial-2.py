@@ -41,4 +41,7 @@ print(water_fly_type)
 # print(df["Height"].sum())
 # print(df["Height"].min())
 # print(df["Height"].max())
-print(df["Height"].count())
+# print(df["Height"].count())
+
+group=df.groupby("Type1")
+print(group["Height"].mean())
