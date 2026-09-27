@@ -27,3 +27,12 @@ print(lowest_weight)
 #Filtering with two conditions in mind
 water_fly_type=df[(df["Type1"]=="Water") & (df["Type2"]=="Flying")]
 print(water_fly_type)
+
+# Whole dataframe
+# print(df.mean(numeric_only=True))
+# print(df.sum(numeric_only=True))
+# print(df.min(numeric_only=True))
+# print(df.max(numeric_only=True))
+# print(df.count())
+
+
