@@ -35,5 +35,7 @@ print(array3D[0][0][0])
 print(array3D[0,0,0])
 # Multi-dimensional indexing is way faster as comapared to chain indexing
 
+
+#This is String Concatenation 
 word=array3D[0,0,0]+array3D[1,0,0]+array3D[1,0,0]
 print(word)
